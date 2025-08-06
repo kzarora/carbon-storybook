@@ -1,0 +1,36 @@
+.chat-bubble-wrapper {
+    display: flex;
+    margin: 0.5rem;
+  }
+  
+  .chat-bubble-wrapper.user {
+    justify-content: flex-end;
+  }
+  
+  .chat-bubble-wrapper.ai {
+    justify-content: flex-start;
+  }
+  
+  .chat-bubble {
+    max-width: 60%;
+    padding: 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  .chat-bubble-wrapper.user .chat-bubble {
+    background-color: #0f62fe;
+    color: white;
+  }
+  
+  .chat-message {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
+  .chat-timestamp {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    text-align: right;
+  }
+  
