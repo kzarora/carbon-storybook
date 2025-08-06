@@ -18,7 +18,6 @@ export const askGPT = async (prompt: string): Promise<string> => {
       {
         headers: {
           "Content-Type": "application/json",
-          "X-goog-api-key": "AIzaSyBArJmwhfYFZWL5DcZ6wstmFtMbSWVQypw",
         },
       }
     );
